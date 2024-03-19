@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+#title-manager-courses {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+#title-courses {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+#manager-courses  {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  background-color: cadetblue;
+}
+#create-form, #update-form, #delete-form {
+  padding: 10px;
+  position: relative;
+}
+#main-list {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: lavender;
+}
+.title-manager-courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#create, #update, #delete {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3px;
+  margin-top: 5px;
+}
+input {
+  width: 250px;
+  height: 25px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- khai báo Doctype -->
+<html> <!-- thẻ mở html -->
+
+<head>
+  <meta charset="UTF-8"> <!-- định dạng bộ kí tự -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- giúp phù hợp với mọi loại màn hình -->
+  <link rel="stylesheet" type="text/css" href="./style.css"> <!--link css-->
+</head>
+
+<body>
+  <div id="main">
+    <h2 id="title-manager-courses">Quản lí khóa học</h2>
+    <div id="manager-courses">
+      <form id="create-form">
+        <h3 class="title-manager-courses">Thêm khóa học</h3>
+        <label>Tên khóa học</label><br>
+        <input type="text" name="name"><br>
+        <label>Mô tả</label><br>
+        <input type="text" name="description"><br>
+        <button id="create">Thêm</button>
+      </form>
+      <form id="update-form">
+        <h3 class="title-manager-courses">Sửa khóa học</h3>
+        <label>Nhập id cần sửa</label><br>
+        <input type="number" name="update-id"><br>
+        <label>Tên khóa học mới</label><br>
+        <input type="text" name="update-name"><br>
+        <label>Mô tả mới</label><br>
+        <input type="text" name="update-description"><br>
+        <button id="update">Sửa</button>
+      </form>
+      <form id="delete-form">
+        <h3 class="title-manager-courses">Xóa khóa học</h3>
+        <label>Nhập id khóa học cần xóa</label><br>
+        <input type="number" name="delete-id"><br>
+        <button id="delete">Xóa</button>
+      </form>
+    </div>
+    <h2 id="title-courses">Danh sách khóa học</h2>
+    <div id="main-list">
+      <ol id="list-courses"></ol>
+    </div>
+  </div>
+  <script src="./main.js"></script> <!-- link js -->
+</body>
+
+</html>
